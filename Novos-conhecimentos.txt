@@ -1,0 +1,8 @@
+validation: Rule => Rule.required() → torna um campo obrigatório
+
+Adicionando min(), max() posso colocar um limite para o número de caracteres
+  validation: Rule => Rule.required().min(20).max(100) 
+
+Adicionando o warning posso colocar uma mensagem de erro
+  validation: Rule => Rule.required().min(20).max(100).warning("TEste")
+

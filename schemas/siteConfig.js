@@ -13,11 +13,6 @@ export default defineType({
       of: [{ type:"image" }]
     }),
     defineField({
-      name:"theme",
-      title: "Tema",
-      type: "string"
-    }),
-    defineField({
       name: "termosDeUso",
       title:"Termos de Uso",
       type: "blockContent"
@@ -45,6 +40,11 @@ export default defineType({
     defineField({
       name:"discord",
       title: "Conta no Discord(Opcional)",
+      type: "string"
+    }),
+    defineField({
+      name:"email",
+      title: "Email(Opcional)",
       type: "string"
     })
   ]

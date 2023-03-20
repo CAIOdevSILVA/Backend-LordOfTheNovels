@@ -29,6 +29,11 @@ export default defineType({
       type: "string",
     }),
     defineField({
+      name:"theme",
+      title: "Tema",
+      type: "string"
+    }),
+    defineField({
       name: "token",
       title: "Token",
       type: "string"

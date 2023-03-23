@@ -10,7 +10,7 @@ export default defineType({
       name: "banners",
       title: "Banners",
       type: "array",
-      of: [{ type:"image" }]
+      of: [{ type:"banners" }]
     }),
     defineField({
       name: "termosDeUso",
@@ -44,7 +44,7 @@ export default defineType({
     }),
     defineField({
       name:"email",
-      title: "Email(Opcional)",
+      title: "Conta no Email(Opcional)",
       type: "string"
     })
   ]

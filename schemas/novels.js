@@ -6,9 +6,21 @@ export default defineType({
   type: "document",
   fields: [
     defineField({
-      name: "name",
-      title: "Nome",
+      name: "title",
+      title: "Título",
       type: "string"
+    }),
+    defineField({
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options:{
+        source: "title",
+        slugify: input => input
+                            .toLowerCase()
+                            .replace(/\s+/g, '-')
+                            .slice(0, 200)    
+      }
     }),
     defineField({
       name: "author",

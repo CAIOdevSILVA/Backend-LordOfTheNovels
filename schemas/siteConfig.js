@@ -41,11 +41,6 @@ export default defineType({
       name:"discord",
       title: "Conta no Discord(Opcional)",
       type: "string"
-    }),
-    defineField({
-      name:"email",
-      title: "Conta no Email(Opcional)",
-      type: "string"
     })
   ]
 })

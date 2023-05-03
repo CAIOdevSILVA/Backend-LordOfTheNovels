@@ -11,8 +11,8 @@ export default defineType({
       type: "postedBy"
     }),
     defineField({
-      name:"userId",
-      title: "UserId",
+      name:"name",
+      title: "Nome",
       type: "string"
     })
   ]

@@ -59,16 +59,10 @@ export default defineType({
       of:[{ type:"save" }]
     }),
     defineField({
-      name: "comments",
-      title: "Comentários",
+      name: "feedback",
+      title: "Feedback",
       type: "array",
-      of: [{ type:"comments" }]
-    }),
-    defineField({
-      name: "stars",
-      title: "Nota",
-      type: "array",
-      of: [{ type:"number" }]
+      of: [{ type:"feedback" }]
     })
   ]
 })

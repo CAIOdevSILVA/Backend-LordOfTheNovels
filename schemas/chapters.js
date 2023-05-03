@@ -33,10 +33,10 @@ export default defineType({
       type: 'datetime',
     }),
     defineField({
-      name: "comments",
-      title: "Comentários",
+      name: "feedback",
+      title: "FeedBack",
       type: "array",
-      of: [{ type:"comments" }]
+      of: [{ type:"feedback" }]
     })
   ]
 })

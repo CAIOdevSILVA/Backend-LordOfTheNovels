@@ -7,10 +7,9 @@ export default defineType({
   type: "document",
   fields: [
     defineField({
-      name: "banners",
-      title: "Banners",
-      type: "array",
-      of: [{ type:"banners" }]
+      name: "config",
+      title:"Nome do site",
+      type: "string"
     }),
     defineField({
       name: "termosDeUso",

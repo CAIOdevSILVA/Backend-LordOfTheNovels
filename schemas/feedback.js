@@ -19,7 +19,7 @@ export default defineType({
     defineField({
       name: "stars",
       title: "Nota",
-      type: "string"
+      type: "number"
     })
   ]
 })

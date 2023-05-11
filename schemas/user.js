@@ -15,23 +15,5 @@ export default defineType({
       title: "Url da Imagem",
       type: "string"
     }),
-    defineField({
-      name: "image",
-      title: "Imagem",
-      type: 'image',
-      options:{
-        hotspot: true
-      }
-    }),
-    defineField({
-      name: "email",
-      title: "Email",
-      type: "string",
-    }),
-    defineField({
-      name: "token",
-      title: "Token",
-      type: "string"
-    })
   ]
 })

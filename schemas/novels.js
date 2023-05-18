@@ -53,6 +53,11 @@ export default defineType({
       of: [{ type:"string" }]
     }),
     defineField({
+      name: "indications",
+      title: "Indica essa obra ? (Indique obras para os leitores ativando essa propriedade)",
+      type: "boolean",
+    }),
+    defineField({
       name: "save",
       title: "Seguidores",
       type: "array",
